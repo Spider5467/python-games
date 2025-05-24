@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64mm"
+   height="32mm"
+   viewBox="0 0 64 32"
+   version="1.1"
+   id="svg11476"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="menu_button.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11478"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3786088"
+     inkscape:cx="39.518899"
+     inkscape:cy="49.188416"
+     inkscape:window-width="1440"
+     inkscape:window-height="828"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs11473">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12418">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop12414" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1"
+         offset="1"
+         id="stop12416" />
+    </linearGradient>
+    <rect
+       x="32.303416"
+       y="33.775801"
+       width="173.01772"
+       height="59.556054"
+       id="rect12159" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12418"
+       id="linearGradient12420"
+       x1="46.953682"
+       y1="42.045441"
+       x2="46.932281"
+       y2="44.532623"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="30.653336"
+       y="28.074503"
+       width="182.51535"
+       height="73.589806"
+       id="rect19669" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:1.637;stroke-linecap:square;stroke-dasharray:none;fill-opacity:1"
+       id="rect11532"
+       width="63.325085"
+       height="31.336206"
+       x="0.16361745"
+       y="0.10033462"
+       ry="8.2257872" />
+    <rect
+       style="fill:#808080;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-dasharray:none;fill-opacity:1"
+       id="rect12103"
+       width="62.231552"
+       height="15.370614"
+       x="0.78879821"
+       y="15.22722"
+       ry="7.685307"
+       rx="5.1370311" />
+    <g
+       aria-label="MAIN MENU"
+       transform="matrix(0.95821759,0,0,1.133446,-27.50015,-22.496237)"
+       id="text19667"
+       style="font-family:'04b_19';-inkscape-font-specification:'04b_19';white-space:pre;shape-inside:url(#rect19669);display:inline;fill:#ff0000;stroke:#000000;stroke-width:0;stroke-linecap:square">
+      <path
+         d="m 30.654297,30.431362 v 9.428571 h 2.571428 V 33.00279 h 0.857143 v 6.857143 h 2.571429 V 33.00279 h 0.857143 v 6.857143 h 2.571428 v -9.428571 z"
+         id="path19862" />
+      <path
+         d="m 40.940018,30.431362 v 9.428571 h 2.571428 v -3.428571 h 0.857143 v 3.428571 h 2.571429 v -9.428571 z m 3.428571,3.428571 H 43.511446 V 33.00279 h 0.857143 z"
+         id="path19864" />
+      <path
+         d="m 50.368586,39.859933 v -9.428571 h -2.571429 v 9.428571 z"
+         id="path19866" />
+      <path
+         d="M 53.797167,39.859933 V 33.00279 h 0.857143 v 6.857143 h 2.571429 v -9.428571 h -6 v 9.428571 z"
+         id="path19868" />
+      <path
+         d="m 63.225739,30.431362 v 9.428571 h 2.571428 V 33.00279 h 0.857143 v 6.857143 h 2.571429 V 33.00279 h 0.857142 v 6.857143 h 2.571429 v -9.428571 z"
+         id="path19870" />
+      <path
+         d="m 79.511459,39.859933 v -2.571429 h -3.428571 v -0.857142 h 3.428571 V 33.859933 H 76.082888 V 33.00279 h 3.428571 v -2.571428 h -6 v 9.428571 z"
+         id="path19872" />
+      <path
+         d="M 82.940028,39.859933 V 33.00279 h 0.857142 v 6.857143 h 2.571429 v -9.428571 h -6 v 9.428571 z"
+         id="path19874" />
+      <path
+         d="m 90.65431,30.431362 v 6.857142 h -0.857143 v -6.857142 h -2.571428 v 9.428571 h 6 v -9.428571 z"
+         id="path19876" />
+    </g>
+  </g>
+</svg>
