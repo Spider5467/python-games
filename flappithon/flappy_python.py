@@ -52,19 +52,19 @@ fy=SCREEN_HEIGHT-120
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 
 run = True
-player = pygame.image.load('flappy_pythons/python.svg')
-bg = pygame.image.load('flappy_pythons/background.svg')
-floor = pygame.image.load('flappy_pythons/floor.svg')
-pip1=pygame.image.load('flappy_pythons/pipe1.svg')
-pip2=pygame.image.load('flappy_pythons/pipe2.svg')
-SB=pygame.image.load('flappy_pythons/start_button.svg')
-SB2=pygame.image.load('flappy_pythons/start_button2.svg')
-MB=pygame.image.load('flappy_pythons/menu_button.svg')
-MB2=pygame.image.load('flappy_pythons/menu_button2.svg')
-EB=pygame.image.load('flappy_pythons/exit_button.svg')
-EB2=pygame.image.load('flappy_pythons/exit_button2.svg')
-title=pygame.image.load('flappy_pythons/title.svg')
-died=pygame.image.load('flappy_pythons/died.svg')
+player = pygame.image.load('flappithon/flappy_pythons/python.svg')
+bg = pygame.image.load('flappithon/flappy_pythons/background.svg')
+floor = pygame.image.load('flappithon/flappy_pythons/floor.svg')
+pip1=pygame.image.load('flappithon/flappy_pythons/pipe1.svg')
+pip2=pygame.image.load('flappithon/flappy_pythons/pipe2.svg')
+SB=pygame.image.load('flappithon/flappy_pythons/start_button.svg')
+SB2=pygame.image.load('flappithon/flappy_pythons/start_button2.svg')
+MB=pygame.image.load('flappithon/flappy_pythons/menu_button.svg')
+MB2=pygame.image.load('flappithon/flappy_pythons/menu_button2.svg')
+EB=pygame.image.load('flappithon/flappy_pythons/exit_button.svg')
+EB2=pygame.image.load('flappithon/flappy_pythons/exit_button2.svg')
+title=pygame.image.load('flappithon/flappy_pythons/title.svg')
+died=pygame.image.load('flappithon/flappy_pythons/died.svg')
 
 
 while run: #just basicly the update function
@@ -148,13 +148,13 @@ while run: #just basicly the update function
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     yv=jmpf
-                    player = pygame.image.load('flappy_pythons/pythonflap.svg')
+                    player = pygame.image.load('flappithon/flappy_pythons/pythonflap.svg')
                 if event.key == pygame.K_ESCAPE:
                     event.type = pygame.QUIT
                     pass
             if event.type == pygame.KEYUP:
                 if pygame.K_SPACE:
-                    player = pygame.image.load('flappy_pythons/python.svg')
+                    player = pygame.image.load('flappithon/flappy_pythons/python.svg')
 
 
         screen.blit(bg, (bx, by))
@@ -247,6 +247,8 @@ while run: #just basicly the update function
             bpt=0
             eby = 600
             bpt2=0
+            sbx = 165
+            sby = 390
             score=0
             yv=0
             bx=0
@@ -256,7 +258,7 @@ while run: #just basicly the update function
             fsx = 966
             pipy=random.randint(200,500)
             pipx=585
-
+            MB=pygame.image.load('flappithon/flappy_pythons/menu_button.svg')
             GAME_STATE="START"
         if cbp:
             bpt+=1
@@ -288,7 +290,7 @@ while run: #just basicly the update function
                 if MBR.collidepoint(mouse_pos):
                     if pygame.mouse.get_pressed(num_buttons=3):
                         MB=MB2
-                        SB=pygame.image.load('flappy_pythons/start_button.svg')
+                        SB=pygame.image.load('flappithon/flappy_pythons/start_button.svg')
                         cbp2 = True
         screen.blit(bg, (bx, by))
         screen.blit(EB,(ebx,eby))
